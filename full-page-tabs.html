@@ -37,19 +37,21 @@ body, html {
   height: 100%;
 }
 
-#Home {background-color: red;}
-#News {background-color: green;}
-#Contact {background-color: blue;}
-#About {background-color: orange;}
+#Home {background-color: #611818;}
+
+  #News {
+    background-color: #0d250d;
+}
+#Contact {background-color: #1d1d5f;}
+#About {background-color: #6b4a0e;}
 </style>
 </head>
 <body>
 
-<button class="tablink" onclick="openPage('Home', this, 'red')">Home</button>
-<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen">News</button>
-<button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact</button>
-<button class="tablink" onclick="openPage('About', this, 'orange')">About</button>
-
+<button class="tablink" onclick="openPage('Home', this, 'red')" style="background-color: #611818;">Home</button>
+<button class="tablink" onclick="openPage('News', this, 'green')" id="defaultOpen" style="background-color: #132f13;">News</button>
+<button class="tablink" onclick="openPage('Contact', this, 'blue')" style="background-color: #1d1d5f;">Contact</button>
+<button class="tablink" onclick="openPage('About', this, 'orange')" style="background-color: #6b4a0e;">About</button>
 <div id="Home" class="tabcontent">
   <h3>Home</h3>
   <p>Home is where the heart is..</p>
